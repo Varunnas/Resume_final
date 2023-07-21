@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#Contact" class="nav-link">Contact me</a></li>
+          </ul>
+        </header>
+      </div>
+   
+    <div class="container my-5" >
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Varun AS's Online Resume</h1>
+            <p class="lead">This webpage is an attempt to demo by skills in HTML CSS and JS.This webpage also contains all the information that a usual (boring) resume contains. Thank You!! </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" fdprocessedid="92wodr" onclick="document.getElementById('home').scrollIntoView();">Go Ahead </button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="s8x929" onclick="window.location.href ='https://youtu.be/dQw4w9WgXcQ';">Not intersted</button>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="./face6.jpg" alt="myface" width="800" height="500">
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5" id="home">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <img class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100" src="./question-diamond-fill.svg"/>
+          <h1 class="text-body-emphasis">Who am I ?</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            As I am making this webpage, I am at the second year of my four year Computer Science degree Course. 
+            After one year of College I realised UG is not suffient for excellence and then from designing webpages in Figma to wrting code to bring designs to life. 
+            <br/><code>What I want?</code><br/>After a point I realised online courses could take only so far and needed real life experience to get me to the next level and thus I sat down to make my resume to apply for internships.
+          </p>
+        </div>
+      </div>
+      
+
+      <div class="container" id="Education">
+      <h1 style="padding-bottom:30px;">Education</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col" style="font-size: 2em;">Level</th>
+            <th scope="col" style="font-size: 2em;">Board/Course</th>
+            <th scope="col" style="font-size: 2em;">Grade</th>
+            <th scope="col" style="font-size: 2em;">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>10th CS Academy Cbe</td>
+            <td>IGCSE</td>
+            <td>93%</td>
+            <td>2019-20</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>12th CS Academy Cbe</td>
+            <td>CBSE</td>
+            <td>91%</td>
+            <td>2021-22</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Btech SNU Chennai</td>
+            <td>Btech CSE</td>
+            <td>8 CGPA</td>
+            <td>2022-26</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="skills">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Skill Set</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3">
+            <img height="50em" src="./html tag.svg"/>   
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Front-end Dev</h3>
+          <p>Intermidiate level at develpoing working front end User Interface.I have attahced my Github account and other projects.</p>
+          <a href="https://github.com/Varunnas" class="icon-link">
+            Github Account >
+          </a><br/.>
+          <a href="./projects.html" class="icon-link">
+            projects >
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3">
+            <img height="50em" src="./python tag.svg"/>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Python Project</h3>
+          <p>I am high level coder in Python Language. I have been working with python for about 4 years.My collge project in which We used python to create a virtual mouse for any computer using its webcam.</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-3">
+           <img height="50em" src="./braces.svg"/>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Additional Details</h3>
+          <p><ul>
+            <li>Beginner level in JAVA</li>
+            <li>Familiar and experience with Arduino and Raspberry Pi</li>
+            <li>Part of University Football Team</li>
+          </ul></p>
+          <a href="./python.html" class="icon-link">
+            IOT Project >  
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div class="px-4  my-5 text-center border-bottom" id="Contact">
+    <h1 class="display-4 fw-bold text-body-emphasis">Contact Me</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">If you have come this far , I hope I had you intersted in my work if not Thnak you for going through with it.For further contact or advice kindly refer the details below.</p>
+      <p class="lead fw-bold">First-Name: <span class="fw-normal"> Varun AS</span></p>
+      <p class="lead fw-bold">Mail: <span class="fw-normal"> varunnjr11@gmail.com</span></p>
+      <p class="lead fw-bold">phone no: <span class="fw-normal"> 6374691909</span></p>
+      <p class="lead fw-bold">Location: <span class="fw-normal"> Chennai</span></p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 50vh;">
+      <div class="container px-5">
+        <img src="./bye.jpg" class="img-fluid border rounded-3 shadow-lg mb-4"  width="700" height="500"  loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+    <p class="mb-0">
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+</body>
+</html>
